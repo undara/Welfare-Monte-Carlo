@@ -1,0 +1,22 @@
+clear all
+load('/Users/Undral/Google Drive/ Current projects/welfare/data/jtpa_kt.mat')
+Y = earnings;
+n = length(Y);
+X_1= edu;
+X_2= prevearn;
+D=D;
+
+%summary stats
+[Ymax, Ymin, Ymean, Ymedian, Ystd]=summary(Y);
+[X1max, X1min, X1mean, X1median, X1std]=summary(X_1);
+[X2max, X2min, X2mean, X2median, X2std]=summary(X_2);
+
+function [maxout, minout, meanout, medianout, stdout] = summary(x)
+
+maxout    = max(x);
+minout    = min(x);
+meanout   = mean(x);
+medianout = median(x);
+stdout    = std(x);
+
+end
