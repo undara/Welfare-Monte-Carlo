@@ -1,5 +1,6 @@
 # Welfare-Monte-Carlo
-This repository contains R files to implement Monte Carlo simulations that appear in {{% staticref "Byambadalai_JMP.pdf" %}}**Identification and Inference for Welfare Gains without Unconfoundedness (Job Market Paper)**{{% /staticref %}} 
+This repository contains R files to implement Monte Carlo simulations that appear in [Byambadalai(2021)](https://undralbyambadalai.com/Byambadalai_JMP.pdf)
+ 
 
 
 "Identification and Inference for Welfare Gains without Unconfoundedness".
